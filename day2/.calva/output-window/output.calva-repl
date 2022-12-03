@@ -1,0 +1,238 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user-activate꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: joyride...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+; nREPL Connection was closed
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user-activate꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: joyride...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+#'day2.core/move-value
+clj꞉day2.core꞉> 
+#'day2.core/symbol-to-move
+clj꞉day2.core꞉> 
+"X"
+clj꞉day2.core꞉> 
+{"A" :rock, "X" :rock, "B" :paper, "Y" :paper, "C" :scissors, "Z" :scissors}
+clj꞉day2.core꞉> 
+{"A" :rock, "X" :rock, "B" :paper, "Y" :paper, "C" :scissors, "Z" :scissors}
+clj꞉day2.core꞉> 
+; No matching clause: 
+clj꞉day2.core꞉> 
+1
+clj꞉day2.core꞉> 
+; Could not resolve symbol: score-move-string
+clj꞉day2.core꞉> 
+#'day2.core/test-data
+clj꞉day2.core꞉> 
+#'day2.core/move-value
+clj꞉day2.core꞉> 
+#'day2.core/symbol-to-move
+clj꞉day2.core꞉> 
+#'day2.core/score-round
+clj꞉day2.core꞉> 
+#'day2.core/total-score-round
+clj꞉day2.core꞉> 
+; Could not resolve symbol: str/split
+clj꞉day2.core꞉> 
+; Could not resolve symbol: %0
+clj꞉day2.core꞉> 
+; Attempting to call unbound fn: #'day2.core/score-move-string
+clj꞉day2.core꞉> 
+; Attempting to call unbound fn: #'day2.core/score-move-string
+clj꞉day2.core꞉> 
+; Could not resolve symbol: str/split
+clj꞉day2.core꞉> 
+nil
+clj꞉day2.core꞉> 
+#'day2.core/get-moves
+clj꞉day2.core꞉> 
+; Could not resolve symbol: %0
+clj꞉day2.core꞉> 
+; Attempting to call unbound fn: #'day2.core/score-move-string
+clj꞉day2.core꞉> 
+#'day2.core/score-move-string
+clj꞉day2.core꞉> 
+; No matching clause: A
+clj꞉day2.core꞉> 
+#'day2.core/score-move-string
+clj꞉day2.core꞉> 
+(7 7)
+clj꞉day2.core꞉> 
+#'day2.core/score-move-string
+clj꞉day2.core꞉> 
+4
+clj꞉day2.core꞉> 
+1
+clj꞉day2.core꞉> 
+#'day2.core/score-move-string
+clj꞉day2.core꞉> 
+8
+clj꞉day2.core꞉> 
+(8 1 6)
+clj꞉day2.core꞉> 
+; Could not resolve symbol: slurp
+clj꞉day2.core꞉> 
+; Attempting to call unbound fn: #'day2.core/read-data
+clj꞉day2.core꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; No nrepl port file found.
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉day2.core꞉> 
+#'day2.core/read-data
+clj꞉day2.core꞉> 
+(8 1 6)
+clj꞉day2.core꞉> 
+(8 1 6)
+clj꞉day2.core꞉> 
+15
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:42:3).
+; Unable to resolve symbol: score-part-1 in this context
+clj꞉day2.core꞉> 
+; Syntax error macroexpanding clojure.core/defn at (core.clj:37:1).
+; reduce - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+; reduce - failed: (or (nil? %) (sequential? %)) at: [:fn-tail :arity-n :bodies] spec: :clojure.core.specs.alpha/params+body
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:42:3).
+; Unable to resolve symbol: score-part-1 in this context
+clj꞉day2.core꞉> 
+; Syntax error macroexpanding clojure.core/defn at (core.clj:37:1).
+; reduce - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+; reduce - failed: (or (nil? %) (sequential? %)) at: [:fn-tail :arity-n :bodies] spec: :clojure.core.specs.alpha/params+body
+clj꞉day2.core꞉> 
+#'day2.core/score-part-1
+clj꞉day2.core꞉> 
+#'day2.core/-main
+clj꞉day2.core꞉> 
+; Syntax error reading source at (REPL:42:35).
+; Unmatched delimiter: )
+clj꞉day2.core꞉> 
+#'day2.core/-main
+clj꞉day2.core꞉> 
+#'day2.core/-main
+clj꞉day2.core꞉> 
+(8 1 6)
+clj꞉day2.core꞉> 
+#'day2.core/score-part-1
+clj꞉day2.core꞉> 
+15
+clj꞉day2.core꞉> 
+11873
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:29:11).
+; Unable to resolve symbol: get-losing-move in this context
+clj꞉day2.core꞉> 
+#'day2.core/get-winning-move
+clj꞉day2.core꞉> 
+#'day2.core/get-losing-move
+clj꞉day2.core꞉> 
+#'day2.core/convert-part2-round
+clj꞉day2.core꞉> 
+"A"
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:1:1620).
+; Unable to resolve symbol: X in this context
+clj꞉day2.core꞉> 
+:paper
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:30:11).
+; Unable to resolve symbol: move-to-symbol in this context
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:30:11).
+; Unable to resolve symbol: move-to-symbol in this context
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:30:11).
+; Unable to resolve symbol: move-to-symbol in this context
+clj꞉day2.core꞉> 
+#'day2.core/convert-part2-round
+clj꞉day2.core꞉> 
+#'day2.core/move-to-symbol
+clj꞉day2.core꞉> 
+#'day2.core/convert-part2-round
+clj꞉day2.core꞉> 
+"B"
+clj꞉day2.core꞉> 
+#'day2.core/convert-part2-round
+clj꞉day2.core꞉> 
+"A"
+clj꞉day2.core꞉> 
+"A"
+clj꞉day2.core꞉> 
+"A"
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:61:56).
+; Unable to resolve symbol: get-input-moves in this context
+clj꞉day2.core꞉> 
+; Syntax error compiling at (core.clj:61:86).
+; Unable to resolve symbol: get-input-moves in this context
+clj꞉day2.core꞉> 
+#'day2.core/get-input-moves
+clj꞉day2.core꞉> 
+#'day2.core/score-part-2
+clj꞉day2.core꞉> 
+#'day2.core/score-part-1
+clj꞉day2.core꞉> 
+; Execution error (ArityException) at day2.core/score-move-string (core.clj:41).
+; Wrong number of args (1) passed to: day2.core/score-move-string/fn--169
+clj꞉day2.core꞉> 
+#'day2.core/get-input-moves
+clj꞉day2.core꞉> 
+; Execution error (IllegalArgumentException) at day2.core/score-part-1 (form-init2390717943186841960.clj:60).
+; Don't know how to create ISeq from: day2.core$get_input_moves
+clj꞉day2.core꞉> 
+#'day2.core/score-part-1
+clj꞉day2.core꞉> 
+15
+clj꞉day2.core꞉> 
+; Execution error (ArityException) at day2.core/score-move-string (core.clj:41).
+; Wrong number of args (1) passed to: day2.core/score-move-string/fn--169
+clj꞉day2.core꞉> 
+#'day2.core/convert-part2-round
+clj꞉day2.core꞉> 
+12
+clj꞉day2.core꞉> 
