@@ -159,7 +159,7 @@
 
 
 (defn -main
-  "Part 1 & 2 of the 2022 Advent of Code Day 5"
+  "Part 1 & 2 of the 2022 Advent of Code Day 7"
   [& args]
   (println "Part 1 (Sample):" (part1 "sample-input.txt")
            "\nPart 1:" (part1 "input.txt")

@@ -20,7 +20,7 @@
 
 
 (defn -main
-  "Part 1 & 2 of the 2022 Advent of Code Day 5"
+  "Part 1 & 2 of the 2022 Advent of Code Day 6"
   [& args]
   (println "Part 1 (Sample 0):" (find-marker 4 "sample-input-0.txt")
            "\nPart 1 (Sample 1):" (find-marker 4 "sample-input-1.txt")
