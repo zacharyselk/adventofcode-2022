@@ -79,7 +79,7 @@
 
 
 (defn -main
-  "Part 1 & 2 of the 2022 Advent of Code Day 8"
+  "Part 1 & 2 of the 2022 Advent of Code Day 9"
   [& args]
   (println "Part 1 (Sample):" (count-tail-moves 2 "sample-input-0.txt")
            "\nPart 1:" (count-tail-moves 2 "input.txt")
