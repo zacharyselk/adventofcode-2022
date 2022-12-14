@@ -49,7 +49,7 @@
 
 
 (defn -main
-  "Part⋅1⋅&⋅2⋅of⋅the⋅2022⋅Advent⋅of⋅Code⋅Day⋅9"
+  "Part 1 & 2 of the 2022 Advent of Code Day 10"
   [& args]
   (println "Part 1 (Sample):" (part1 "sample-input-1.txt")
            "\nPart 1:" (part1 "input.txt")
